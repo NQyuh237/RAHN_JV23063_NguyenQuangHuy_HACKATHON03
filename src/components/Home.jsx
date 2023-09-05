@@ -5,7 +5,7 @@ import Cart from "./Cart";
 function Home() {
   const [listProduct, setListProduct] = useState([
     {
-      name: "KEYCAP CAPTAIN AMERICA HỢP KIM NHÔM",
+      name: "KEYCAP CAPTAIN AMERICA",
       price: "100",
       description: "Chất liệu hợp kim nhôm đem lại cảm giác gõ chắc tay.",
       status: true,
@@ -15,7 +15,7 @@ function Home() {
       id: 1,
     },
     {
-      name: "KEYCAP HUY HIỆU THÁCH ĐẤU LOL",
+      name: "KEYCAP HUY HIỆU THÁCH ĐẤU",
       price: "150",
       description: "Chất liệu hợp kim nhôm đem lại cảm giác gõ chắc tay.",
       status: true,
@@ -25,7 +25,7 @@ function Home() {
       id: 2,
     },
     {
-      name: "KEYCAP LÁ CHẮN VÔ ĐỊCH DOTA2",
+      name: "KEYCAP LÁ CHẮN DOTA2",
       price: "200",
       description: "Chất liệu hợp kim nhôm đem lại cảm giác gõ chắc tay.",
       status: true,
@@ -35,7 +35,7 @@ function Home() {
       id: 3,
     },
     {
-      name: "KEYCAP AVENGER HỢP KIM NHÔM",
+      name: "KEYCAP AVENGER",
       price: "400",
       description: "Chất liệu hợp kim nhôm đem lại cảm giác gõ chắc tay.",
       status: true,
@@ -148,7 +148,7 @@ function Home() {
             {listProduct.map((productItem) => (
               <ListProduct
                 product={productItem}
-                key={productItem.id} // Sử dụng id làm key thay vì index
+                key={productItem.id}
                 onAddCart={handleAddCart}
               />
             ))}

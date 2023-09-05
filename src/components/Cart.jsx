@@ -41,7 +41,7 @@ function Cart({ listProduct, handleUpdate, handleDelete }) {
   return (
     <Container>
       <h1 className="text-center">Cart</h1>
-      <Table striped bordered hover>
+      <Table striped bordered hover style={{ textAlign: "center" }}>
         <thead>
           <tr>
             <th>STT</th>

@@ -20,8 +20,8 @@ function ListProduct({ product, onAddCart }) {
   };
 
   return (
-    <Col lg={3} md={4} sm={6} className="my-4">
-      <Card style={{ width: "18rem" }}>
+    <Col lg={4} md={4} sm={6} className="my-4">
+      <Card style={{ width: "22rem" }}>
         <Card.Img variant="top" src={image_url} />
         <Card.Body>
           <Card.Title>{name}</Card.Title>
