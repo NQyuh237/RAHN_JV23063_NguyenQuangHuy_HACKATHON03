@@ -16,7 +16,7 @@ function ListProduct({ product, onAddCart }) {
 
   const handleAdd = () => {
     onAddCart(id, count);
-    setCount(0); // Reset count after adding to cart
+    setCount(0);
   };
 
   return (

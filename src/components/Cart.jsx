@@ -7,7 +7,6 @@ function Cart({ listProduct, handleUpdate, handleDelete }) {
 
   useEffect(() => {
     if (Array.isArray(listProduct)) {
-      // Filter only items with count greater than 0
       setCartList(listProduct.filter((item) => item.count > 0));
     }
   }, [listProduct]);
