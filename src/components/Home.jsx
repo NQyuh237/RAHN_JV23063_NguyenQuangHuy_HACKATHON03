@@ -143,7 +143,7 @@ function Home() {
     >
       <Tab eventKey="home" title="Home">
         <Container>
-          <h1 className="text-center">List products</h1>
+          <h1 className="text-center">Shopping Cart</h1>
           <Row className="product-row">
             {listProduct.map((productItem) => (
               <ListProduct
