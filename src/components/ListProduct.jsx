@@ -3,7 +3,7 @@ import { Col, Card, Button } from "react-bootstrap";
 
 function ListProduct({ product, onAddCart }) {
   if (!product) {
-    return <div>No product data available.</div>; 
+    return <div>No product data available.</div>;
   }
 
   const { name, price, description, image_url, id } = product;
